@@ -6,10 +6,10 @@ import fs from 'fs';
 // const fs = require(`fs`);
 
 // TODO: Create an array of questions for user input
-// const questions = []; this was the original code I am testing this out
+const questions = [
 
-inquirer
-    .prompt([
+// inquirer
+//     .prompt([
         {
             type: 'input',
             name: `title`,
@@ -22,9 +22,17 @@ inquirer
         },
         {
             type: 'list',
-            name: `table of contents`,
+            name: `table-of-contents`,
             message: `Table of Contents.`,
-            choices: [`Installation`, `Usage`, `License`, `Contributing`, `Tests`, `Questions`],
+            choices: 
+                [
+                `Installation`, 
+                `Usage`, 
+                `License`, 
+                `Contributing`, 
+                `Tests`, 
+                `Questions`
+                ],
         },
         {
             type: 'input',
@@ -40,7 +48,23 @@ inquirer
             type: 'list',
             name: `license`,
             message: `Provide usage instructions.`,
-            choices: [`Apache 2.0`, `GNU Public License v3.0`, `MIT`, `BSD2-Clause "Simplified License`, `BSD3-Clause "New" or "Revised" License`,`Boost Software License`, `Creative Commons Zero v1.0 Universal`, `Eclipse Public License 2.0`, `GNU Affero General Public License v3.0`, `GNU General Public License v2.0`, `GNU Lesser General Public License v2.1`, `Modzilla Public License 2.0`, `The Unlicense`,`None`],
+            choices: 
+                [
+                `Apache 2.0`, 
+                `GNU Public License v3.0`, 
+                `MIT`, 
+                `BSD2-Clause "Simplified License`, 
+                `BSD3-Clause "New" or "Revised" License`,
+                `Boost Software License`, 
+                `Creative Commons Zero v1.0 Universal`, 
+                `Eclipse Public License 2.0`, 
+                `GNU Affero General Public License v3.0`, 
+                `GNU General Public License v2.0`, 
+                `GNU Lesser General Public License v2.1`, 
+                `Modzilla Public License 2.0`, 
+                `The Unlicense`,
+                `None`
+                ],
         },
         {
             type: 'input',
@@ -54,19 +78,55 @@ inquirer
         },
         {
             type: 'input',
-            name: `github link`,
-            message: `Provide your github url.`,
-        },
-        {
-            type: 'input',
             name: `questions`,
             message: `Provide email address for questions.`,
         },
-    ])
+        {
+            type: 'input',
+            name: `github-link`,
+            message: `Provide your github url.`,
+        },
+    ];
+
+// Added: Function to write README file
+function generateREADME(answers) {
+    return 
+    // Title
+    {answers.title}
+
+    // Description
+    {answers.description}
+
+    // Table of Contents
+    {answeers.table-of-contents}
+
+    // Installation
+    {answers.installation}
+
+    // Usage
+    {answers.usage}
+
+    // License
+    {answers.license}
+
+    // Contributing
+    {answers.contributing}
+
+    // Tests
+    {answers.test}
+
+    // Questions
+    "For any questions, please contact me at: " + {answers.questions}
+    
+    // GitHub Link
+    "For more information, please visit my Github page at: " + {answers.github-link}
+
+}
 
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+}
 
 // TODO: Create a function to initialize app
 function init() {}
