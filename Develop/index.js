@@ -98,7 +98,7 @@ function generateREADME(answers) {
     {answers.description}
 
     // Table of Contents
-    {answeers.table-of-contents}
+    {answers.table-of-contents}
 
     // Installation
     {answers.installation}
@@ -116,20 +116,20 @@ function generateREADME(answers) {
     {answers.test}
 
     // Questions
-    "For any questions, please contact me at: " + {answers.questions}
+    "For any questions, please contact me at: jakewalter080@gmail.com"
     
     // GitHub Link
-    "For more information, please visit my Github page at: " + {answers.github-link}
+    "For more information, please visit my Github page at: jakewalter080"
 
 }
 
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {
-}
+// function writeToFile(fileName, data) {
+// }
 
-// TODO: Create a function to initialize app
-function init() {}
+// // TODO: Create a function to initialize app
+// function init() {}
 
-// Function call to initialize app
-init();
+// // Function call to initialize app
+// init();
