@@ -1,10 +1,10 @@
-# JAKE
+# JAKE WALTER'S TEST README
 
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
 
-    JAKE
+    Test
 
 ## Table-of-Contents
 
@@ -17,34 +17,34 @@
 
 ## Installation
 
-    JAKE
+    Test
 
 
 ## Usage
 
-    JAKE
+    Test
 
 ## License
 
-    This project is licensed under the Apache 2.0 license.
+    This project is licensed under the MIT license.
 
 
 ## Contributing
 
-    JAKE
+    Test
 
 ## Tests
     
-    JAKE
+    Test
   
 
 ## Questions
 
   - Your GitHub username:
-      * https://github.com/jale
+      * https://github.com/jakewalter080
   
   - Your email address:
-      * jale
+      * jakewalter080@gmail.com
     
   - If you have any questions you can contact me on GtiHub or email:
 
