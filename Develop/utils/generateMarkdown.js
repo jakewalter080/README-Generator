@@ -14,6 +14,40 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   return `# ${data.title}
 
+    // Title
+    ${answers.title}
+
+    // Description
+    ${answers.description}
+
+    // Table of Contents
+
+    - [Installation](#installation)
+    - [Usage](#usage)
+    - [License](#license)
+    - [Contributing](#contributing)
+    - [Tests](#tests)
+    - [Questions](#questions)
+
+    // Usage
+    ${answers.usage}
+
+    // License
+    // write renderLicenseBadge function here
+
+
+    // Contributing
+    ${answers.contributing}
+
+    // Tests
+    ${answers.test}
+    
+    // GitHub Link
+    - GitHub: ['GitHub Link' ${answers.github}]
+
+    // Questions
+    "For any questions, please contact me at: jakewalter080@gmail.com"
+
 `;
 }
 

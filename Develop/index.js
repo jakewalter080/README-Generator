@@ -85,45 +85,16 @@ inquirer
         },
     ]);
 
-// Added: Function to write README file
-
-// function generateREADME(answers) {
-//     return 
-//     // Title
-//     {answers.title}
-
-//     // Description
-//     {answers.description}
-
-//     // Table of Contents
-//     {answers.table-of-contents}
-
-//     // Installation
-//     {answers.installation}
-
-//     // Usage
-//     {answers.usage}
-
-//     // License
-//     {answers.license}
-
-//     // Contributing
-//     {answers.contributing}
-
-//     // Tests
-//     {answers.test}
-
-//     // Questions
-//     "For any questions, please contact me at: jakewalter080@gmail.com"
-    
-//     // GitHub Link
-//     "For more information, please visit my Github page at: jakewalter080"
-
-// }
-
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, (error) => {
+        if (error) {
+            console.log(`Error writing file: ${error}`);
+        } else {
+            console.log(`Successfully generated: ${fileName} !`);
+        }
+    });
 }
 
 // TODO: Create a function to initialize app
