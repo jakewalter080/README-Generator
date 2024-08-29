@@ -1,10 +1,10 @@
-# 
+# jake
 
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
 
-    
+    jake
 
 ## Table-of-Contents
 
@@ -17,36 +17,36 @@
 
 ## Installation
 
-    
+    jake
 
 
 ## Usage
 
-    
+    jake
 
 ## License
 
-    This project is licensed under the Apache 2.0 license.
+    This project is licensed under the MIT license.
 
 
 ## Contributing
 
-    
+    jake
 
 ## Tests
     
-    
+    jake
   
 
 ## Questions
 
-Your GitHub username:
-      * https://github.com/
+  - Your GitHub username:
+      * https://github.com/jake
   
-Your email address:
-      * 
+  - Your email address:
+      * jake
     
-If you have any questions you can contact me on GtiHub or email:
+  - If you have any questions you can contact me on GtiHub or email:
 
       * [GitHub](https://github.com/jakewalter080)
 

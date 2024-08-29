@@ -3,7 +3,7 @@
 function renderLicenseBadge(license) {
   let badge = '';
   if (!license || license === 'None') {
-    return '';
+    return 'This project is not licensed.';
   } else {
     const badges = {
       'Apache 2.0': 'https://img.shields.io/badge/License-Apache%202.0-blue.svg',
