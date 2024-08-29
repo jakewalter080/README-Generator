@@ -1,15 +1,12 @@
 // TODO: Include packages needed for this application
+
 import inquirer from 'inquirer';
 import fs from 'fs';
 
-// const inquirer = require('inquirer');
-// const fs = require(`fs`);
-
 // TODO: Create an array of questions for user input
-const questions = [
 
-// inquirer
-//     .prompt([
+inquirer
+    .prompt([
         {
             type: 'input',
             name: `title`,
@@ -86,50 +83,51 @@ const questions = [
             name: `github-link`,
             message: `Provide your github url.`,
         },
-    ];
+    ]);
 
 // Added: Function to write README file
-function generateREADME(answers) {
-    return 
-    // Title
-    {answers.title}
 
-    // Description
-    {answers.description}
+// function generateREADME(answers) {
+//     return 
+//     // Title
+//     {answers.title}
 
-    // Table of Contents
-    {answers.table-of-contents}
+//     // Description
+//     {answers.description}
 
-    // Installation
-    {answers.installation}
+//     // Table of Contents
+//     {answers.table-of-contents}
 
-    // Usage
-    {answers.usage}
+//     // Installation
+//     {answers.installation}
 
-    // License
-    {answers.license}
+//     // Usage
+//     {answers.usage}
 
-    // Contributing
-    {answers.contributing}
+//     // License
+//     {answers.license}
 
-    // Tests
-    {answers.test}
+//     // Contributing
+//     {answers.contributing}
 
-    // Questions
-    "For any questions, please contact me at: jakewalter080@gmail.com"
+//     // Tests
+//     {answers.test}
+
+//     // Questions
+//     "For any questions, please contact me at: jakewalter080@gmail.com"
     
-    // GitHub Link
-    "For more information, please visit my Github page at: jakewalter080"
+//     // GitHub Link
+//     "For more information, please visit my Github page at: jakewalter080"
 
-}
+// }
 
 
 // TODO: Create a function to write README file
-// function writeToFile(fileName, data) {
-// }
+function writeToFile(fileName, data) {
+}
 
-// // TODO: Create a function to initialize app
-// function init() {}
+// TODO: Create a function to initialize app
+function init() {}
 
-// // Function call to initialize app
-// init();
+// Function call to initialize app
+init();
