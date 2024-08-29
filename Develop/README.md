@@ -1,10 +1,10 @@
-# Jake
+# 
 
     ## Title
-    Jake
+    
 
     ## Description
-    Tets
+    
 
     ## Table of Contents
 
@@ -19,18 +19,22 @@
     
 
     ## License
-    ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
+    https://img.shields.io/badge/License-Apache%202.0-blue.svg
 
 
     ## Contributing
-    Test
+    
 
     ## Tests
-    Test
     
-    ## GitHub Link
-    - GitHub: [undefined](https://github.com/undefined)
+  
 
-    // Questions
-    "For any questions, please contact me at: jakewalter080@gmail.com"
+    ## Questions
+
+    Your GitHub username: https://github.com/jakewalter080]
+    Your email address: jakewalter080@gmail.com
+    
+    If you have any questions you can contact me on GtiHub or email:
+        - GitHub: https://github.com/jakewalter080
+        - Email: https://jakewalter080@gmail.com
 

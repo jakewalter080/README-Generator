@@ -19,8 +19,7 @@ function renderLicenseBadge(license) {
       'Modzilla Public License 2.0': 'https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg',
       'The Unlicense': 'https://img.shields.io/badge/license-Unlicense-blue.svg',
     };
-    return `![License](${badges[license]})`;
-
+    return badges[license];
   }
 }
 
@@ -89,12 +88,16 @@ function generateMarkdown(data) {
 
     ## Tests
     ${data.test}
-    
-    ## GitHub Link
-    - GitHub: [${data.github}](https://github.com/${data.github})
+  
 
-    // Questions
-    "For any questions, please contact me at: jakewalter080@gmail.com"
+    ## Questions
+
+    Your GitHub username: https://github.com/${data.github}]
+    Your email address: ${data.email}
+    
+    If you have any questions you can contact me on GtiHub or email:
+        - GitHub: https://github.com/jakewalter080
+        - Email: https://jakewalter080@gmail.com
 
 `;
 }

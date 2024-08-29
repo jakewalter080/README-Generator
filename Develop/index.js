@@ -76,11 +76,11 @@ const questions = [
         {
             type: 'input',
             name: `questions`,
-            message: `Provide email address for questions.`,
+            message: `Provide email address.`,
         },
         {
             type: 'input',
-            name: `github-link`,
+            name: `github`,
             message: `Provide your github url.`,
         },
     ];
