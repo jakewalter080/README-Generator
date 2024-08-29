@@ -63,10 +63,10 @@ function generateMarkdown(data) {
   return `# ${data.title}
 
     ## Title
-    ${answers.title}
+    ${data.title}
 
     ## Description
-    ${answers.description}
+    ${data.description}
 
     ## Table of Contents
 
@@ -78,20 +78,20 @@ function generateMarkdown(data) {
     - [Questions](#questions)
 
     ## Usage
-    ${answers.usage}
+    ${data.usage}
 
     ## License
-    ${renderLicenseBadge(answers.license)}
+    ${renderLicenseBadge(data.license)}
 
 
     ## Contributing
-    ${answers.contributing}
+    ${data.contributing}
 
     ## Tests
-    ${answers.test}
+    ${data.test}
     
     ## GitHub Link
-    - GitHub: [${answers.github}](https://github.com/${answers.github})
+    - GitHub: [${data.github}](https://github.com/${data.github})
 
     // Questions
     "For any questions, please contact me at: jakewalter080@gmail.com"

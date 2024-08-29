@@ -5,9 +5,8 @@ import fs from 'fs';
 import generateMarkdown from './utils/generateMarkdown.js';
 
 // TODO: Create an array of questions for user input
-// const questions =
-inquirer
-    .prompt([
+const questions = [
+
         {
             type: 'input',
             name: `title`,
@@ -84,7 +83,7 @@ inquirer
             name: `github-link`,
             message: `Provide your github url.`,
         },
-    ]);
+    ];
 
 
 // TODO: Create a function to write README file
