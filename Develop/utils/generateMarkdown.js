@@ -6,7 +6,7 @@ function renderLicenseBadge(license) {
   } else {
     const badges = {
       'Apache 2.0': 'https://img.shields.io/badge/License-Apache%202.0-blue.svg',
-      'GNU Public License v3.0': 'https://img.shields.io/badge/License-GPLv3-blue.svg',
+      'GNU Public License v3.0' : 'https://img.shields.io/badge/License-GPLv3-blue.svg',
       'MIT': 'https://img.shields.io/badge/License-MIT-yellow.svg',
       'BSD2-Clause "Simplified License': 'https://img.shields.io/badge/License-BSD%202--Clause-orange.svg',
       'BSD3-Clause "New" or "Revised" License': 'https://img.shields.io/badge/License-BSD%203--Clause-blue.svg',
@@ -16,7 +16,7 @@ function renderLicenseBadge(license) {
       'GNU Affero General Public License v3.0': 'https://img.shields.io/badge/License-AGPL%20v3-blue.svg',
       'GNU General Public License v2.0': 'https://img.shields.io/badge/License-GPL%20v2-blue.svg',
       'GNU Lesser General Public License v2.1': 'https://img.shields.io/badge/License-LGPL%20v2.1-blue.svg',
-      'Modzilla Public License 2.0': 'https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg',
+      'Mozilla Public License 2.0': 'https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg',
       'The Unlicense': 'https://img.shields.io/badge/license-Unlicense-blue.svg',
     };
     return badges[license];
@@ -41,10 +41,10 @@ function renderLicenseLink(license) {
       'GNU Affero General Public License v3.0': 'https://www.gnu.org/licenses/agpl-3.0',
       'GNU General Public License v2.0': 'https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html',
       'GNU Lesser General Public License v2.1': 'https://www.gnu.org/licenses/lgpl-2.1.html',
-      'Modzilla Public License 2.0': 'https://opensource.org/licenses/MPL-2.0',
+      'Mozilla Public License 2.0': 'https://opensource.org/licenses/MPL-2.0',
       'The Unlicense': 'http://unlicense.org/',
     };
-  return links[license];
+    return links[license];
   }
 }
 // TODO: Create a function that returns the license section of README
@@ -80,7 +80,8 @@ function generateMarkdown(data) {
     ${data.usage}
 
     ## License
-    ${renderLicenseBadge(data.license)}
+    ![License](${renderLicenseBadge(data.license)})
+    ![License](${renderLicenseSection(data.license)})
 
 
     ## Contributing
@@ -92,12 +93,12 @@ function generateMarkdown(data) {
 
     ## Questions
 
-    Your GitHub username: https://github.com/${data.github}]
-    Your email address: ${data.email}
+    [Your GitHub username] (https://github.com/${data.github})
+    [Your email address] (${data.email})
     
     If you have any questions you can contact me on GtiHub or email:
-        - GitHub: https://github.com/jakewalter080
-        - Email: https://jakewalter080@gmail.com
+        - [GitHub] (https://github.com/jakewalter080)
+        - [Email] (https://jakewalter080@gmail.com)
 
 `;
 }

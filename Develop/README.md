@@ -19,7 +19,8 @@
     
 
     ## License
-    https://img.shields.io/badge/License-Apache%202.0-blue.svg
+    ![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
+    ![License](This project is licensed under the Apache 2.0 license. Click [here](https://opensource.org/licenses/Apache-2.0) for more information.)
 
 
     ## Contributing
@@ -31,10 +32,10 @@
 
     ## Questions
 
-    Your GitHub username: https://github.com/jakewalter080]
-    Your email address: jakewalter080@gmail.com
+    [Your GitHub username] (https://github.com/)
+    [Your email address] (undefined)
     
     If you have any questions you can contact me on GtiHub or email:
-        - GitHub: https://github.com/jakewalter080
-        - Email: https://jakewalter080@gmail.com
+        - [GitHub] (https://github.com/jakewalter080)
+        - [Email] (https://jakewalter080@gmail.com)
 
