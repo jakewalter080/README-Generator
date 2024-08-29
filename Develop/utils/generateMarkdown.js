@@ -64,53 +64,54 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   return `# ${data.title}
 
+${renderLicenseBadge(data.license)}
 
-    ${renderLicenseBadge(data.license)}
-
-    ## Description
+## Description
 
     ${data.description}
 
-    ## Table-of-Contents
+## Table-of-Contents
 
-    - [Installation](#installation)
-    - [Usage](#usage)
-    - [License](#license)
-    - [Contributing](#contributing)
-    - [Tests](#tests)
-    - [Questions](#questions)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Contributing](#contributing)
+  * [Tests](#tests)
+  * [Questions](#questions)
 
-    ## Installation
+## Installation
 
     ${data.installation}
 
 
-    ## Usage
+## Usage
 
     ${data.usage}
 
-    ## License
+## License
 
     ${renderLicenseSection(data.license)}
 
 
-    ## Contributing
+## Contributing
 
     ${data.contributing}
 
-    ## Tests
+## Tests
     
     ${data.test}
   
 
-    ## Questions
+## Questions
 
-    [Your GitHub username] (https://github.com/${data.github})
-    [Your email address] (${data.email})
+  Your GitHub username:
+  * (https://github.com/${data.github})
+  Your email address:
+  * (${data.email})
     
-    If you have any questions you can contact me on GtiHub or email:
-        - [GitHub] (https://github.com/jakewalter080)
-        - [Email] (https://jakewalter080@gmail.com)
+  If you have any questions you can contact me on GtiHub or email:
+        - GitHub: https://github.com/jakewalter080
+        - Email: https://jakewalter080@gmail.com
 
 `;
 }

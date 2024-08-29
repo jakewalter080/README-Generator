@@ -44,7 +44,7 @@ const questions = [
         {
             type: 'list',
             name: `license`,
-            message: `Provide usage instructions.`,
+            message: `Did you use a license?.`,
             choices: 
                 [
                 `Apache 2.0`, 
