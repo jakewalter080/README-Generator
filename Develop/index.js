@@ -75,7 +75,7 @@ const questions = [
         },
         {
             type: 'input',
-            name: `questions`,
+            name: `email`,
             message: `Provide email address.`,
         },
         {

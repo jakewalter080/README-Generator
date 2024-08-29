@@ -103,14 +103,17 @@ ${renderLicenseBadge(data.license)}
 
 ## Questions
 
-  Your GitHub username:
-  * (https://github.com/${data.github})
-  Your email address:
-  * (${data.email})
+  - Your GitHub username:
+      * https://github.com/${data.github}
+  
+  - Your email address:
+      * ${data.email}
     
-  If you have any questions you can contact me on GtiHub or email:
-        - GitHub: https://github.com/jakewalter080
-        - Email: https://jakewalter080@gmail.com
+  - If you have any questions you can contact me on GtiHub or email:
+
+      * [GitHub](https://github.com/jakewalter080)
+
+      * [Email: jakewalter080@gmail.com](https://jakewalter080@gmail.com)
 
 `;
 }

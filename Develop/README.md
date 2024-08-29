@@ -40,12 +40,15 @@
 
 ## Questions
 
-  Your GitHub username:
-  * (https://github.com/)
-  Your email address:
-  * (undefined)
+Your GitHub username:
+      * https://github.com/
+  
+Your email address:
+      * 
     
-  If you have any questions you can contact me on GtiHub or email:
-        - GitHub: https://github.com/jakewalter080
-        - Email: https://jakewalter080@gmail.com
+If you have any questions you can contact me on GtiHub or email:
+
+      * [GitHub](https://github.com/jakewalter080)
+
+      * [Email: jakewalter080@gmail.com](https://jakewalter080@gmail.com)
 
