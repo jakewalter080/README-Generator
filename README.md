@@ -73,7 +73,7 @@ Thank you for your interest, if you would like to contribute reach out to me via
 
 Test this app in VS Code. Open the terminal, move into root directory 'Develop', run 'node index.js'. Answer the prompts and preview your README in the 'Develop' folder
 
-##
+## Questions
 
 Please feel free to contact me at:
 
