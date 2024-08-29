@@ -18,25 +18,22 @@ This ensures the user doesn't need to worry about following the proper syntac cr
 
 ## Challenges
 
-```md
-This was the first time I built something without being able to link to the internet and immediately view the additions/changes I made in the application. That was a learning curve while testing, when something crashed it was a little more difficult to go back and forth.
+- This was the first time I built something without being able to link to the internet and immediately view the additions/changes I made in the application. That was a learning curve while testing, when something crashed it was a little more difficult to go back and forth.
 
-I ran into a problem at the end where my page generating my README.md file was only printing text. For example, the badge icons and links for licenses were not displaying correctly. I thought it was something wrong with the the functions where I created the badge and link, but it turned out to be the function generating the actual markdown. I had my Headers tabbed over too far, etc so the page wasn't displaying how it normally should. Once I corrected that, I was able to fix the smaller details that needed changing.
-```
+- I ran into a problem at the end where my page generating my README.md file was only printing text. For example, the badge icons and links for licenses were not displaying correctly. I thought it was something wrong with the the functions where I created the badge and link, but it turned out to be the function generating the actual markdown. I had my Headers tabbed over too far, etc so the page wasn't displaying how it normally should. Once I corrected that, I was able to fix the smaller details that needed changing.
 
 ## Successes
 
-```md
-I was able to successfully import the libraries I needed to use for the inquirer.
+- I was able to successfully import the libraries I needed to use for the inquirer.
 
-I was able to learn how to install the correct package.json files and add the correct "type" into them.
+- I was able to learn how to install the correct package.json files and add the correct "type" into them.
 
-This project was a good reminder on using git and GitHub: creating and cloning repositories, git add ., git add -A, git commit, and pushing frequently. 
+- This project was a good reminder on using git and GitHub: creating and cloning repositories, git add ., git add -A, git commit, and pushing frequently. 
 
-This project also was a great reminder on the purpose of .gitignores.
+- This project also was a great reminder on the purpose of .gitignores.
 
-Once I was able to figure out the prompting, the rest of the application came along quickly. I liked learning the different types of node inquirers and prompts.
-```
+- Once I was able to figure out the prompting, the rest of the application came along quickly. I liked learning the different types of node inquirers and prompts.
+
 
 ## Installation
 
