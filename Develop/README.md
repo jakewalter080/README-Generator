@@ -1,12 +1,17 @@
 # 
 
     ## Title
+
     
+
+
+    [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
     ## Description
+
     
 
-    ## Table of Contents
+    ## Table-of-Contents
 
     - [Installation](#installation)
     - [Usage](#usage)
@@ -15,18 +20,27 @@
     - [Tests](#tests)
     - [Questions](#questions)
 
+    ## Installation
+
+    
+
+
     ## Usage
+
     
 
     ## License
-    ![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
-    ![License](This project is licensed under the Apache 2.0 license. Click [here](https://opensource.org/licenses/Apache-2.0) for more information.)
+
+    ## License
+    This project is licensed under the Apache 2.0 license. Click [here](https://opensource.org/licenses/Apache-2.0) for more information.
 
 
     ## Contributing
+
     
 
     ## Tests
+    
     
   
 
