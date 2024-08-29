@@ -28,7 +28,7 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   if (!license || license === 'None') {
-    return '';
+    return 'This project is not licensed.';
   } else {
     const links = {
       'Apache 2.0': 'https://opensource.org/licenses/Apache-2.0',
@@ -52,11 +52,10 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   if (!license || license === 'None') {
-    return '';
+    return 'This project is not licensed.';
   }
   else {
-    return `## License
-    This project is licensed under the ${license} license. Click [here](${renderLicenseLink(license)}) for more information.`;
+    return `This project is licensed under the ${license} license.`;
   }
 }
 

@@ -26,8 +26,7 @@
 
 ## License
 
-    ## License
-    This project is licensed under the Apache 2.0 license. Click [here](https://opensource.org/licenses/Apache-2.0) for more information.
+    This project is licensed under the Apache 2.0 license.
 
 
 ## Contributing
