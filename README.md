@@ -60,7 +60,7 @@ You will see your generated README.md in the 'Develop' Folder.
 
 ## Screen Recording
 
-[LINK](https://drive.google.com/file/d/1WUzPk-BYhKuZda6RpcUhkuyCvMM54QBc/view?usp=drive_link)
+[LINK](https://drive.google.com/file/d/1WUzPk-BYhKuZda6RpcUhkuyCvMM54QBc/view?usp=sharing)
 
 ## Contributing
 
